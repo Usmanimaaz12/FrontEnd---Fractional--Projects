@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website layout</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        .body{
+            height: 100vh;
+        }
+      .container {
+        border-style: solid;
+        border-width: 2px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+
+      }
+      .header{
+        height: 10vh;
+        border: 2px solid;
+        margin: 2px;
+        
+      }
+      .container{
+        display: flex;
+        margin: 2px;
+        
+        
+      }
+      .sidebar{
+        width: 20%;
+        border-right: 2px solid;
+        height: 80vh;
+        /* margin: 2px; */
+      }
+
+      .cont-body{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+      .cont-header{
+        border: 2px solid;
+        margin: 2px;
+      }
+     
+      .box1{
+        border: 2px solid;
+        width: 48%;
+      }
+      .boxes{
+        display:flex;
+        height: 100%;
+        margin: 2px;
+        justify-content:space-around;
+        
+        
+       
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">Header</div>
+
+    <div class="container">
+        <div class="sidebar">sidebar</div>
+        <div class="cont-body">
+            <div class="cont-header">container header</div>
+            <div class="boxes">
+                <div class="box1">box1</div>
+                <div class="box1">box2</div>
+            </div>
+        </div>
+    </div>
+   
+    <div class="footer">Footer</div>
+
+  </body>
+</html>
+
+
+
